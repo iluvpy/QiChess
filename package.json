@@ -1,0 +1,20 @@
+{
+  "name": "Saltaboci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iluvpy/Saltaboci.git",
+  "author": "iluvpy <miomanns265@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node ./server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  }
+}
